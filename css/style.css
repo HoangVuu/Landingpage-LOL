@@ -1,0 +1,165 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+.body{
+overflow-x: hidden;
+font-family: sans-serif;
+color: #505962;
+
+}
+
+.navbar{
+    background-color: #505962;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+
+}
+
+.navbar ul li{
+    margin-right:100px;
+    display: block;
+}
+
+.navbar ul  {
+    position: absolute;
+    padding-left: 550px;
+  
+}
+
+.home-inner{
+    background-image:url("/img/bia.jpg");
+    width: 100%;
+    height: 50rem;
+    min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cap{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 40%;
+    z-index: 1;
+}
+
+.cap h3 {
+    color: rgb(14, 231, 130);
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    padding-bottom: 2 rem;
+}
+
+.btn{
+    font-weight: 600;
+    background-color: rgb(145, 214, 188);
+    border-width: medium;
+    border-radius: 1;
+    color:black;
+    padding : .5rem 1.2rem;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.navbar-brand img {
+
+    height: 100px; 
+    width: 250px;
+}
+
+ .heading {
+     font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.navbar-nav ul li{
+    margin-left: 10px;
+}
+
+#product .row{
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+.card{
+    margin-top:20px;
+    margin-bottom: 20px;
+    background-color: #bcc5bd8c;
+}
+
+.container {
+   padding-right: 0px;
+   padding-left: 0px;
+  }
+
+.card-img-top{
+    
+    width: 100%;
+    height: auto;
+}
+
+.card-img-top{
+    padding:50px;
+    background-image: url("/img/lol1.jpg");
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+.card-img-top:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.cap h3{
+    animation: chuchay 4s forwards;
+}
+
+.pic1{
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(98, 200, 231));
+}
+
+.pic3{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(98, 200, 231));
+}
+
+@-webkit-keyframes  chuchay{
+    from{
+        opacity: 0;
+        margin-top: -500px;
+    }
+
+    to{
+        opacity: 1;
+        top:40%;
+      
+    }
+}
+
+ul li:hover a{
+    animation: hovernav-link 1s ;
+}
+
+@-webkit-keyframes hovernav-link{
+    from{
+        margin-top: -10px;
+    }
+    to{
+        margin-top: 0;
+        color: yellowgreen;
+    }
+}
+
+#contact{
+    background-color: black; /* For browsers that do not support gradients */
+    background-image: radial-gradient(white, rgb(124, 180, 233), black);
+}
+
+#contact .row img{
+    height: 250px;
+    width: 450px;
+}
